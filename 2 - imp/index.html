@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>media </title>
+   Primeiro numero <input id="numero1" type="number"> <br />
+   Segundo  numero <input id="numero2" type="number"> <br />
+   <button onclick="media()">Calcular Media</button>
+
+   <script type="text/javascript">
+
+    function media(){
+     var numero1 = parseFloat(document.getElementById("numero1").value);
+     var numero2 = parseFloat(document.getElementById("numero2").value);
+
+     var media = (numero1 + numero2)/2 ;
+         
+   
+       alert("a media é: "+ media);
+    
+
+    }
+ </script>
+
+ </head>
+</html>
